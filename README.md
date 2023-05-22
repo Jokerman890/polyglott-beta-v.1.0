@@ -1,1 +1,1 @@
-#Google translate clone utilizando tecnologias: TypeScript, React y CHATGPT API
+#Polyglott übersetzer Beta v 1.02
