@@ -28,11 +28,11 @@ function App () {
   }
   useEffect(() => {
     if (debouncedText === '') return;
-    console.log('Translating:', debouncedText); // Add this line
+    console.log('Translating:', debouncedText);
     translate({ fromLanguage, toLanguage, text: debouncedText })
       .then((result) => {
         if (result == null) return;
-        console.log('Translation result:', result); // Add this line
+        console.log('Translation result:', result);
         setResult(result);
       })
       .catch((error) => {
@@ -40,16 +40,6 @@ function App () {
         setResult('error');
       });
   }, [debouncedText, fromLanguage, toLanguage]);
-  
-  () => {
-    if (debouncedText === '') return
-    translate({ fromLanguage, toLanguage, text: debouncedText })
-      .then(result => {
-        if (result == null) return
-        setResult(result)
-      })
-      .catch(() => { setResult('error') })
-  }
   return (
     <Container className='contenedorPADRE' fluid>
       <div className='contenedorApp'>

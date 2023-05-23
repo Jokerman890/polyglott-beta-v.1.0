@@ -1,0 +1,10 @@
+name: polyglott-beta-v.1.02
+id: 57221efb-4c45-4a76-8c19-0b514ef4f553
+languages:
+  - TypeScript
+  - TSX
+extensions:
+  - .ts
+  - .cts
+  - .mts
+  - .tsx
