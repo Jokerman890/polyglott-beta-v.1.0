@@ -1,13 +1,13 @@
 export const SUPPORTED_LANGUAGES = {
-  en: 'English',
   ru: 'Русский',
   de: 'Deutsch',
-  ua: 'Українська'
+  ua: 'Українська',
+  en: 'English'
 }
 export const VOICE_FOR_LANGUAGE = {
-  en: 'en-GB',
   ru: 'ru-RU',
   de: 'de-DE',
-  ua: 'uk-UA'
+  ua: 'uk-UA',
+  en: 'en-GB'
 }
 export const AUTO_LANGUAGE = 'auto'
